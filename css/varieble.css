@@ -205,6 +205,3 @@ li {
 .hide {
     display: none;
 }
-[activeLang]:hover ~ [lang_in] {
-    display: block;
-}
