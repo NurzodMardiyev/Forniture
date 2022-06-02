@@ -863,10 +863,7 @@
         margin: 6px 0 0 0;
         width: 100%;
     } 
-    #slider .slide-info p:nth-child(1) {
-        font-size: 0.875rem;
-        font-weight: 400;
-    }
+    
     #slider .slide-info {
         /* position: absolute; */
         /* transform: translateY(-50%); */
@@ -874,15 +871,13 @@
         /* text-align: center; */
         color: #fff;
     }
-}
-@media screen and (max-width: 932px) {
-    #category {
-        width: inherit;
-        display: none;    /*---------------------------------------display flex---------------btn chertsa*-----*/
+    #slider .slide-info h1 {
+        font-size: 1rem;
+    } 
+    #slider .slide-info p:nth-child(1) {
+        font-size: 0.75rem;
+        font-weight: 400;
     }
-}
-@media screen and (max-width: 1212px) {
-    
 }
 
 
